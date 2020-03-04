@@ -1,0 +1,28 @@
+{
+  "name": "nodeimgupload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "nexe index.js --build -t x86-8.0.0",
+    "start": "node index.js"
+  },
+  "author": "xDinomode <xdinomode@gmail.com> (https://github.com/xDinomode)",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "gridfs-stream": "^1.1.1",
+    "jimp": "^0.9.3",
+    "mime": "^1.3.4",
+    "mongoose": "^4.3.7",
+    "multer": "^1.1.0",
+    "nexe": "^3.3.2",
+    "pngjs": "^3.4.0",
+    "sharp": "^0.24.0"
+  }
+}
